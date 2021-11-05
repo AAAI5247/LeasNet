@@ -1,0 +1,17 @@
+n_agent=6
+n_enemy=6
+action_dim = 9
+observation_dim = 123
+path="data/battle_model"
+map_size=20
+capacity = 100000
+batch_size = 128
+totalTime = 0
+TAU = 0.01     
+LRA = 0.0001        
+param = None
+alpha = 0.6
+GAMMA = 0.96
+n_episode = 2000
+max_steps = 100
+episode_before_train = 100
